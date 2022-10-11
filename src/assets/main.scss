@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), local('Gilroy'),
+  url('~@/assets/fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+  url('~@/assets/fonts/Gilroy/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-black';
+  src: local('Gilroy-black'), local('Gilroy-black'),
+  url('~@/assets/fonts/Gilroy/Gilroy-Black.woff2') format('woff2'),
+  url('~@/assets/fonts/Gilroy/Gilroy-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst-black';
+  src: local('Nekst-black'), local('Nekst-black'),
+  url('~@/assets/fonts/Nekst/Nekst-Black.woff2') format('woff2'),
+  url('~@/assets/fonts/Nekst/Nekst-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Nekst-black;
+}
+
